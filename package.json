@@ -1,0 +1,21 @@
+{
+  "name": "my_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node backend/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yreenabbas/my_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yreenabbas/my_project/issues"
+  },
+  "homepage": "https://github.com/yreenabbas/my_project#readme"
+}
