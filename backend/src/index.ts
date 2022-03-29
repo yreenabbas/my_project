@@ -8,14 +8,14 @@ import * as bodyParser from "body-parser";
 import session from "express-session";
 import bcrypt from "bcryptjs";
 import User from "./User";
-import dotenv from "dotenv";
+//import dotenv from "dotenv";
 import { DatabaseUserInterface } from "./InterfaceDatabase";
 import { UserT } from "./UserIterface";
 
 
 const LocalStrategy = passportLocal.Strategy;
 
-dotenv.config();
+//dotenv.config();
 
 mongoose.connect(
   "mongodb+srv://yaren:nE9Hxzfak7SpbzSB@cluster0.s1dk0.mongodb.net/TravellApp?retryWrites=true&w=majority",
